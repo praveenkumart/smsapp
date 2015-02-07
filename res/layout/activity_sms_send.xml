@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="com.praveen.smsapp.SmsSend" >
+
+    <EditText
+        android:id="@+id/send_edit_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#80808080"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="number"
+        android:inputType="number"
+        android:maxLength="10" 
+        />
+
+    <EditText
+        android:id="@+id/send_edit_message"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/send_edit_number"
+        android:layout_marginBottom="30dp"
+        android:background="#30808080"
+        android:ems="10"
+        android:maxLines="15"
+        android:maxLength="300"
+        android:gravity="center"
+        android:hint="message" />
+
+    <Button
+        android:id="@+id/send_button_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendSms"
+        android:layout_below="@+id/send_edit_message"
+        android:text="pUSH" />
+
+</RelativeLayout>
