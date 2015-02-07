@@ -70,7 +70,6 @@ public class SmsSend extends ActionBarActivity {
 		}
 		else{
 			sendingSms(num,message);
-			Toast.makeText(getApplicationContext(), "message:"+message+"to"+num+" success", Toast.LENGTH_SHORT).show();
 		}
 
 	}
@@ -125,7 +124,7 @@ public class SmsSend extends ActionBarActivity {
 		}, new IntentFilter(DELIVERED));
 		SmsManager sms = SmsManager.getDefault();
 		sms.sendTextMessage(num, null, message, pi, piDeliver);
-		Toast.makeText(getBaseContext(), "Toast below sndtxt",Toast.LENGTH_SHORT).show();
+	
 	}
 
 }

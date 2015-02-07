@@ -34,7 +34,13 @@
             android:name=".SmsReceive"
             android:label="@string/title_activity_sms_receive" >
         </activity>
-     
-    </application>
+      <receiver android:name="com.praveen.smsapp.IncomingSms" >
 
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        
+    </application>
+           
 </manifest>

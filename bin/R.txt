@@ -349,7 +349,7 @@ int id action_menu_presenter 0x7f090006
 int id action_mode_bar 0x7f09002e
 int id action_mode_bar_stub 0x7f09002d
 int id action_mode_close_button 0x7f090020
-int id action_settings 0x7f090044
+int id action_settings 0x7f090046
 int id activity_chooser_view_content 0x7f090021
 int id always 0x7f090014
 int id beginning 0x7f09001b
@@ -369,6 +369,7 @@ int id homeAsUp 0x7f09000e
 int id icon 0x7f090026
 int id ifRoom 0x7f090016
 int id image 0x7f090023
+int id imageView1 0x7f090045
 int id listMode 0x7f09000a
 int id list_item 0x7f090025
 int id main_img_receive 0x7f090040
@@ -400,6 +401,7 @@ int id showTitle 0x7f090012
 int id split_action_bar 0x7f090004
 int id submit_area 0x7f09003c
 int id tabMode 0x7f09000c
+int id textView1 0x7f090044
 int id title 0x7f090027
 int id up 0x7f090001
 int id useLogo 0x7f090013
@@ -432,7 +434,8 @@ int layout abc_simple_dropdown_hint 0x7f030016
 int layout activity_main 0x7f030017
 int layout activity_sms_receive 0x7f030018
 int layout activity_sms_send 0x7f030019
-int layout support_simple_spinner_dropdown_item 0x7f03001a
+int layout notification 0x7f03001a
+int layout support_simple_spinner_dropdown_item 0x7f03001b
 int menu main 0x7f0c0000
 int menu sms_receive 0x7f0c0001
 int menu sms_send 0x7f0c0002
@@ -454,6 +457,7 @@ int string abc_shareactionprovider_share_with_application 0x7f0a000e
 int string abc_toolbar_collapse_description 0x7f0a0004
 int string action_settings 0x7f0a0012
 int string app_name 0x7f0a0010
+int string collapsed 0x7f0a0015
 int string hello_world 0x7f0a0011
 int string title_activity_sms_receive 0x7f0a0014
 int string title_activity_sms_send 0x7f0a0013
